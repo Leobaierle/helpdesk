@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+logs/
+outbox/
+outbox_test/
+!outbox/.gitkeep
+!outbox_test/.gitkeep
+
+db/*.db
+db/backups/
+db/backups_test/
+
+.DS_Store
+Thumbs.db
